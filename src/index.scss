@@ -1,0 +1,57 @@
+.homeLi{
+    list-style: none;
+    margin-left: 10px;
+}
+.cats{
+  width: 500px;
+  height: 500px;
+}
+.categories {
+  .noactive{
+    list-style: none;
+    width: 100px;
+    border: 1px solid gainsboro;
+    margin-left: 10px;
+    display: flex;
+    background-color: black;
+    color: antiquewhite;
+    padding-left: 50px;
+    &_active{
+      list-style: none;
+      width: 100px;
+      border: 1px solid gainsboro;
+      margin-left: 10px;
+      display: flex;
+      background-color: orange;
+      color: antiquewhite;
+      padding-left: 50px;
+    }
+  }
+}
+.categories {
+  .ulForNames{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .animals {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    li{
+      margin-left: 20px;
+      img{
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+}
+.back{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.noone{
+  text-align: center;
+}
